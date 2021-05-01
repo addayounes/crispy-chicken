@@ -1,0 +1,114 @@
+header,
+#container.header,
+.navbar,
+.navbar ul {display: flex}
+header {
+    width: 100%;
+    height: 72px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999
+}
+#container.header {
+    align-items: center;
+    align-self: center;
+    flex-basis: 76%;
+    justify-content: space-between
+}
+.box_shadow {box-shadow: 0px -25px 32px black}
+.logo img {
+    width: 42px;
+    cursor: pointer;
+    transition: .1s ease-out
+}
+.logo img:hover {
+    opacity: .8;
+    transition: .1s ease-out
+}
+.navbar {align-items: center}
+.navbar ul {
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.navbar ul li + li{margin-left: 2rem}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--dark-clr);
+    font-size: 1.125rem;
+    transition: .1s ease-out;
+    text-transform: uppercase;
+    cursor: pointer
+}
+.navbar ul li a.active,
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+    color: var(--primary-clr);
+    transition: .1s ease-out;
+    position: relative
+}
+.navbar ul li a.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -25px;
+    background-color: var(--primary-clr)
+}
+.shopping-cart {
+    font-size: 1.125rem;
+    color: white;
+    background: var(--primary-clr) ;
+    padding: .35em 1em;
+    border-radius: 100px;
+    max-height: 30px;
+    margin-left: 2em;
+    cursor: pointer;
+    transition: .15s ease-out
+}
+.shopping-cart:hover {
+    background-color: var(--primary-darken-clr);
+    transition: .15s ease-out
+}
+.icon {
+    font-size: 2.5rem;
+    color: var(--dark-clr);
+    cursor: pointer;
+    margin-left: 1rem;
+    border-radius: 35%;
+    padding: 5px;
+    transition: .1s ease-out;
+    display: none
+}
+.icon:hover {
+    background-color: var(--primary-soft-clr);
+    transition: .1s ease-out
+}
+
+@media only screen and (max-width: 850px) {
+    #container.header {flex-basis: 85%}
+    .icon {display: block}
+    .navbar ul {display: none}
+    .navbar #hidden li a.active::before {display: none}
+    .navbar #hidden {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 72px;
+        text-align: center;
+        width: 100%
+    }
+    .navbar #hidden li {
+        padding: 1em 0;
+        background-color: var(--primary-clr)
+    }
+    .navbar #hidden li + li {margin: 0}
+    .navbar #hidden li a.active,
+    .navbar #hidden li:hover a,
+    .navbar #hidden li:focus a,
+    .navbar #hidden li a:hover,
+    .navbar #hidden li a:focus {color: white}
+}

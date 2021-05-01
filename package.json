@@ -1,4 +1,5 @@
 {
+  "homepage": "http://addayounes.github.io/CrispyChicken",
   "name": "restaurant",
   "version": "0.1.0",
   "private": true,
@@ -6,16 +7,22 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,38 @@
+.split-vertically{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.8em;
+    border-radius: 10px;
+    transition: .5s ease-in;
+    background: #fff;
+    -webkit-box-shadow:inset 0px 0px 0px 1px var(--light-clr);
+    -moz-box-shadow:inset 0px 0px 0px 1px var(--light-clr);
+    box-shadow:inset 0px 0px 0px 1px var(--light-clr);
+}
+.flex-col-vertically img {
+    width: 100%;
+    max-width: 18rem;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.typo h3 {
+    font-size: 1.625rem;
+    margin: .6em 0;    
+}
+.typo p, .typo h3 {
+    max-width: 25ch;
+}
+.typo p {
+    margin: 1em 0 1.4em;
+}
+.typo {
+    padding: 0 1em 0 1em;
+    flex-basis: 100%;
+    max-width: 18rem;
+}
+.split-vertically:hover {
+    transform: scale(1.05);
+    transition: all .35s ease-in-out;
+    background: var(--secondary-soft-clr)
+}

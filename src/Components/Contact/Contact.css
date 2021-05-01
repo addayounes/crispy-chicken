@@ -1,0 +1,89 @@
+.contact-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6em 0;
+    background: var(--secondary-clr)
+}
+.contact {
+    background-color: white;
+    padding: 2em;
+    border-radius: 15px;
+    max-width: 450px !important;
+    transition: .15s ease-out
+}
+.contact h1 {font-size: 1.625rem}
+.contact__form {
+    display: flex;
+    flex-direction: column
+}
+.contact__form > * {
+    padding: 1em;
+    border-radius: 5px;
+    border: solid 1px var(--light-clr)
+}
+.contact__form input {margin-bottom: 1em}
+.contact__form textarea {
+    margin-bottom: 2em;
+    resize: none;
+    font-family: 'Rubik'
+}
+.contact__form > *:focus {border: solid 1px var(--secondary-clr)}
+
+.particle {
+    position: absolute;
+    width: 50px;
+}
+.plus {
+    top: 10rem;
+    right: 10rem;
+    animation: rotate 6s ease-out infinite;
+}
+.bubbles {
+    width: 100px;
+    bottom: 10rem;
+    left: 10rem;
+    animation: slide 20s ease-out infinite;
+
+}
+
+@keyframes rotate {
+    0% {
+        right: 11rem;
+        top: 13rem;
+        transform: rotateZ(360deg);
+    }
+    30% {
+        right: 10rem;
+        transform: rotateZ(0deg);
+    }
+    100% {
+        right: 11rem;
+        top: 13rem;
+        transform: rotateZ(-360deg);
+    }
+}
+@keyframes slide {
+    0% {
+        bottom: 10rem;
+        left: 10rem;
+        transform: rotateZ(360deg);
+    }
+    50% {
+        bottom: 13rem;
+        left: 12rem;
+        transform: rotateZ(0deg);
+    }
+    100% {
+        bottom: 10rem;
+        left: 10rem;
+        transform: rotateZ(-360deg);
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .particles {display: none}
+}

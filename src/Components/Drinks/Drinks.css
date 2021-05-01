@@ -1,0 +1,61 @@
+.drinks,
+.slideshow,
+.slideshow span,
+.slideshow-items {display: flex}
+
+.drinks {
+    padding: 4em 0;
+    flex-direction: column;
+    justify-content: center
+}
+.drinks-section {
+    width: 100%;
+    background-color: var(--primary-clr);
+    margin-top: 4em
+}
+.drinks .heading h2 {color: white}
+.slideshow {
+    justify-content: space-between;
+    align-items: center
+}
+.slideshow-items {
+    overflow-y: auto;
+    max-width: 750px
+}
+.slideshow-items::-webkit-scrollbar {display: none}
+.drink-item + .drink-item {margin-left: 2em}
+.slideshow span {
+    padding: .5em;
+    background-color: #000;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: .3;
+    transition: .1s ease-out
+}
+.slideshow span:hover,
+.slideshow span:focus {
+    opacity: .5;
+    transition: .1s ease-out
+}
+.arrow-icon {
+    font-size: 2em;
+    color: var(--primary-clr)
+}
+
+@media only screen and (max-width: 850px) {
+    .slideshow-items {max-width:320px}
+}
+@media only screen and (max-width: 550px) {
+    .slideshow-items {max-width: 200px}
+    .arrow-icon {font-size: 1.5em}
+    .slideshow span {
+        width: 40px;
+        height: 40px 
+    }
+}
+
+

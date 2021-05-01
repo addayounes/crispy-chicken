@@ -1,0 +1,25 @@
+.footer {
+    background: var(--dark-clr);
+}
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    margin: 0;
+    padding: 1em 0
+}
+.github, .footer p, .instagram {
+    color: #fff;
+    opacity: .5
+}
+.github, .instagram {
+    margin-left: .5em;
+    font-size: 1.125rem;
+    cursor: pointer
+}/*instagram*/
+.github:hover,
+.github:focus,
+.instagram:hover,
+.instagram:focus {opacity: 1}

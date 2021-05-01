@@ -1,0 +1,31 @@
+.drink-img img {
+    max-width: 10rem;
+    min-width: 10rem;
+    border-radius: 10px;
+    width: 100%;
+    transition: .15s ease-out
+}
+.drink-item h3 {
+    font-size: 1.625rem;
+    color: white;
+    margin-bottom: 0
+}
+.drink-item {
+    text-align: center;
+    cursor: pointer
+}
+.drink-item:hover img,
+.drink-item:focus img {
+    transform: translateY(5px);
+    transition: .15s ease-out
+}
+@media only screen and (max-width: 850px) {
+    .drink-item:hover img,
+    .drink-item:focus img {transform: none} 
+}
+@media only screen and (max-width: 550px) {
+    .drink-img img {
+        min-width: 11.5rem;
+        border-radius: none
+    }
+}

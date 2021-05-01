@@ -1,0 +1,24 @@
+.img-bg {
+    height: 480px;
+    background: url(../../Images/About.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%
+}
+.flex-col {flex-basis: 100%}
+.text-container {padding-left: 3em}
+.text-container h1 {
+    font-size: 2rem;
+    text-transform: uppercase
+}
+.text-container p {
+    line-height: 1.6;
+    font-size: 1rem;
+    max-width: 45ch;
+    margin-bottom: 1.5rem
+}
+@media only screen and (max-width: 850px) {
+    .about{display: block}
+    .text-container {padding: 2em 2em 4.5em}
+    .img-bg {background-position: right top}
+}

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CrispyChicken/static/css/main.23b759a0.chunk.css",
-    "main.js": "/CrispyChicken/static/js/main.0f9d71ba.chunk.js",
-    "main.js.map": "/CrispyChicken/static/js/main.0f9d71ba.chunk.js.map",
+    "main.css": "/CrispyChicken/static/css/main.80939aae.chunk.css",
+    "main.js": "/CrispyChicken/static/js/main.9313b8bf.chunk.js",
+    "main.js.map": "/CrispyChicken/static/js/main.9313b8bf.chunk.js.map",
     "runtime-main.js": "/CrispyChicken/static/js/runtime-main.e54f91b5.js",
     "runtime-main.js.map": "/CrispyChicken/static/js/runtime-main.e54f91b5.js.map",
     "static/js/2.6c81bbb4.chunk.js": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js",
     "static/js/2.6c81bbb4.chunk.js.map": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js.map",
     "index.html": "/CrispyChicken/index.html",
-    "static/css/main.23b759a0.chunk.css.map": "/CrispyChicken/static/css/main.23b759a0.chunk.css.map",
+    "static/css/main.80939aae.chunk.css.map": "/CrispyChicken/static/css/main.80939aae.chunk.css.map",
     "static/js/2.6c81bbb4.chunk.js.LICENSE.txt": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js.LICENSE.txt",
-    "static/media/1-16-16.b53ca6f6.svg": "/CrispyChicken/static/media/1-16-16.b53ca6f6.svg",
+    "static/media/1-16-16.3245d9fe.svg": "/CrispyChicken/static/media/1-16-16.3245d9fe.svg",
     "static/media/1.81138121.png": "/CrispyChicken/static/media/1.81138121.png",
     "static/media/2.42c794e0.png": "/CrispyChicken/static/media/2.42c794e0.png",
     "static/media/3.fafcddb8.png": "/CrispyChicken/static/media/3.fafcddb8.png",
     "static/media/About.css": "/CrispyChicken/static/media/About.c0911de5.jpg",
-    "static/media/bg-17.475e17a8.svg": "/CrispyChicken/static/media/bg-17.475e17a8.svg",
-    "static/media/bubbles-16-16.4af55342.svg": "/CrispyChicken/static/media/bubbles-16-16.4af55342.svg",
+    "static/media/bg-17.c1aeaea0.svg": "/CrispyChicken/static/media/bg-17.c1aeaea0.svg",
+    "static/media/bubbles-16-16.ef29824e.svg": "/CrispyChicken/static/media/bubbles-16-16.ef29824e.svg",
     "static/media/coca.c46d4381.jpg": "/CrispyChicken/static/media/coca.c46d4381.jpg",
     "static/media/cook.b88def59.png": "/CrispyChicken/static/media/cook.b88def59.png",
     "static/media/pepsi.33c16312.jpg": "/CrispyChicken/static/media/pepsi.33c16312.jpg"
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e54f91b5.js",
     "static/js/2.6c81bbb4.chunk.js",
-    "static/css/main.23b759a0.chunk.css",
-    "static/js/main.0f9d71ba.chunk.js"
+    "static/css/main.80939aae.chunk.css",
+    "static/js/main.9313b8bf.chunk.js"
   ]
 }

@@ -13,6 +13,8 @@
     padding: 2em;
     border-radius: 15px;
     max-width: 450px !important;
+    opacity: 0;
+    transform: translateY(-100px);
     transition: .15s ease-out
 }
 .contact h1 {font-size: 1.625rem}

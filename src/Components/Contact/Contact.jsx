@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Button'
 import p1 from '../../Images/particles/1-16-16.svg'
 import p2 from '../../Images/particles/bubbles-16-16.svg'
 import './Contact.css'
+import lazyLoading from '../../utils/LazyLoading'
 
 const Contact = () => {
+    useEffect(() => {
+        lazyLoading(".contact", "lazyLoadingAnimation")
+    }, [])
     return (
         <section name="Contact" className="contact-section">
             <div className="particles">

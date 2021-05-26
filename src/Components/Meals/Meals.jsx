@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Button'
 import Meal from '../Meal/Meal'
 import { mealsOfTheDay as data } from './MealsData'
 import './Meals.css'
+import lazyLoading from '../../utils/LazyLoading'
 
 const Meals = () => {
+    useEffect(() => {
+        lazyLoading(".meals", "lazyLoadingAnimation")
+    }, [])
     return (
         <div name="Meals">
             <div id="container" className="meals">

@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Button'
+import lazyLoading from "../../utils/LazyLoading"
 import './About.css'
 
+
 const About = () => {
+    useEffect(() => {
+        lazyLoading(".img-bg", "lazyLoadingAnimation")
+        lazyLoading(".text-container", "lazyLoadingAnimation")
+    }, [])
     return (
     <section className="split about" name="About">
             <div className="flex-col img-bg"></div>

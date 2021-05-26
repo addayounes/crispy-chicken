@@ -18,6 +18,8 @@
     background: white;
     min-height: 80%;
     height: max-content;
+    transform: translateY(150px);
+    opacity: 0;
 }
 .meals .split {padding: 0 6em}
 .split-vertically + .split-vertically {margin-left: 1em}

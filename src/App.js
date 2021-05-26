@@ -4,6 +4,7 @@ import Drinks from './Components/Drinks/Drinks'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import About from './Components/About/About'
+import './utils/transition.css'
 
 function App() {
   return (

@@ -3,10 +3,12 @@
     background: url(../../Images/About.jpg);
     background-size: cover;
     background-position: center center;
-    width: 100%
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
 }
 .flex-col {flex-basis: 100%}
-.text-container {padding-left: 3em}
+.text-container {padding-left: 3em;transform: translateY(-50%);opacity: 0;}
 .text-container h1 {
     font-size: 2rem;
     text-transform: uppercase

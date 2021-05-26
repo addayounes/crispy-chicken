@@ -1,0 +1,6 @@
+.lazyLoadingAnimation {
+    transform: translateX(0) !important;
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+    transition: .8s ease-out
+}

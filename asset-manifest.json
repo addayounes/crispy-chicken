@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/CrispyChicken/static/css/main.80939aae.chunk.css",
-    "main.js": "/CrispyChicken/static/js/main.9313b8bf.chunk.js",
-    "main.js.map": "/CrispyChicken/static/js/main.9313b8bf.chunk.js.map",
+    "main.css": "/CrispyChicken/static/css/main.90dc86ef.chunk.css",
+    "main.js": "/CrispyChicken/static/js/main.442c705d.chunk.js",
+    "main.js.map": "/CrispyChicken/static/js/main.442c705d.chunk.js.map",
     "runtime-main.js": "/CrispyChicken/static/js/runtime-main.e54f91b5.js",
     "runtime-main.js.map": "/CrispyChicken/static/js/runtime-main.e54f91b5.js.map",
     "static/js/2.6c81bbb4.chunk.js": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js",
     "static/js/2.6c81bbb4.chunk.js.map": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js.map",
     "index.html": "/CrispyChicken/index.html",
-    "static/css/main.80939aae.chunk.css.map": "/CrispyChicken/static/css/main.80939aae.chunk.css.map",
+    "static/css/main.90dc86ef.chunk.css.map": "/CrispyChicken/static/css/main.90dc86ef.chunk.css.map",
     "static/js/2.6c81bbb4.chunk.js.LICENSE.txt": "/CrispyChicken/static/js/2.6c81bbb4.chunk.js.LICENSE.txt",
     "static/media/1-16-16.3245d9fe.svg": "/CrispyChicken/static/media/1-16-16.3245d9fe.svg",
     "static/media/1.81138121.png": "/CrispyChicken/static/media/1.81138121.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e54f91b5.js",
     "static/js/2.6c81bbb4.chunk.js",
-    "static/css/main.80939aae.chunk.css",
-    "static/js/main.9313b8bf.chunk.js"
+    "static/css/main.90dc86ef.chunk.css",
+    "static/js/main.442c705d.chunk.js"
   ]
 }
